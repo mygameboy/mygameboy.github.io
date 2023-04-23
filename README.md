@@ -11,3 +11,12 @@ System Storage
 54M	.
 ```
 ```bash
+Installing latest LTS version.
+v18.16.0 is already installed.
+Now using node v18.16.0 (npm v9.5.1)
+Now using node v18.16.0 (npm v9.5.1)
+yarn install v1.22.19
+[1/4] Resolving packages...
+success Already up-to-date.
+Done in 0.07s.
+```
