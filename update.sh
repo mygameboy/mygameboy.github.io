@@ -24,7 +24,6 @@ echo "\`\`\`"  >> README.md 2>&1;
 git add .;
 git commit -m "end add system status";
 
-
 echo "\`\`\`bash"  >> README.md 2>&1;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 git add .;
@@ -38,8 +37,6 @@ echo "\`\`\`"  >> README.md 2>&1;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 git add .;
 git commit -m "end update node";
-
-export NODE_OPTIONS="--max-old-space-size=8000";
 
 git add .;
 git commit -m "begin yarn";
